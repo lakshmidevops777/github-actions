@@ -3,7 +3,8 @@ name: Secure DevSecOps Pipeline
 on:
   push:
     branches:
-      - master
+      - main
+  workflow_dispatch:
 
 jobs:
   build_and_package:
