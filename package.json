@@ -1,0 +1,10 @@
+{
+  "name": "secure-devsecops",
+  "version": "1.0.0",
+  "description": "Node.js DevSecOps demo project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/calculator.test.js"
+  }
+}
